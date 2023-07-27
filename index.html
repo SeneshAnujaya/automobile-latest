@@ -1,0 +1,656 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Auto Mobile</title>
+
+    <!-- Slider styles -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.css"
+    />
+
+    <!-- Icons -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+
+    <!-- FontAwesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+      integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <!-- Google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600&family=Roboto:wght@300;400;500&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Main stylesheet -->
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <!-- Header  -->
+    <header id="header" class="navbar-main">
+      <button class="menu-btn"><i class="fa-solid fa-bars"></i></button>
+      <div class="nav-bar">
+        <div class="navbar-brand">
+          <a href="#">
+            <img src="./img/header/logo.png" alt="logo" />
+          </a>
+        </div>
+        <ul>
+          <li><a href="#" class="nav-link">Home</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#car-brands">Car-Brands</a></li>
+          <li><a href="#collection">Collection</a></li>
+        </ul>
+      </div>
+    </header>
+    <!-- End of header -->
+    <!-- Navbar  -->
+    <!-- <header>
+      <nav>
+        <div class="navbar-container">
+          <div class="navbar-brand">
+            <a href="#">
+              <img src="./img/header/logo.png" alt="logo" />
+            </a>
+          </div>
+          <ul class="navbar">
+            <li>
+              <a href="#">Home</a>
+            </li>
+            <li>
+              <a href="#services">Services</a>
+            </li>
+            <li>
+              <a href="#car-brands">Car-Brands</a>
+            </li>
+            <li>
+              <a href="#collection">Collection</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </header> -->
+    <!-- end of header -->
+
+    <!-- Hero section -->
+    <section id="hero">
+      <div class="container">
+        <div class="inner-container">
+          <div class="hero-content">
+            <video autoplay muted loop id="myVedio">
+              <source src="./vedio/dashboard.mp4" type="video/mp4" />
+            </video>
+            <div class="overlay"></div>
+            <p class="top-title">The Future belong to you</p>
+            <h1 class="main-title">
+              Find your future<br />
+              <span class="car-title">dream</span> car
+            </h1>
+            <a href="#" class="main-btn"
+              >Contact Us<span
+                ><i
+                  class="fa-sharp fa-solid fa-hand-back-point-right"
+                ></i></span
+            ></a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- end of hero -->
+
+    <!-- our services -->
+    <section id="services">
+      <div class="container">
+        <div class="inner-container">
+          <div class="services-container">
+            <div class="side-title-wrap">
+              <h2>Services We Offer</h2>
+              <div class="title-line"></div>
+              <p>
+                When it is time to service your vehicle, trust the best. We have
+                employed certified technicians and have a full inventory of
+                genuine OEM parts in order to provide you with the highest level
+                of maintenance and repair services. Visit our online scheduling
+                page to make an appointment, or give our service department a
+                call.
+              </p>
+              <p>
+                SWIFTAutomobile has an expedited service section that can
+                execute your oil change service quickly, using the same licensed
+                experts and original OEM parts and materials as a regular
+                service appointment. Schedule your appointment if that is
+                convenient for you.
+              </p>
+              <a href="#" class="main-btn"
+                >More Services<span
+                  ><i
+                    class="fa-sharp fa-solid fa-hand-back-point-right"
+                  ></i></span
+              ></a>
+            </div>
+
+            <div class="side-card-items">
+              <div class="card-item">
+                <img
+                  src="./img/services/oil-changes.png"
+                  alt="services"
+                  class="card-item-img"
+                />
+                <h3 class="card-title">Oil Changes</h3>
+                <p>
+                  Our professionals can execute the oil change your car
+                  requires, whether it utilizes conventional, semi-synthetic, or
+                  full-synthetic oil.
+                </p>
+              </div>
+
+              <div class="card-item">
+                <img
+                  src="./img/services/tire-service.png"
+                  alt="services"
+                  class="card-item-img"
+                />
+                <h3 class="card-title">Tire Service</h3>
+                <p>
+                  Learn about the tire services we provide in our tire center,
+                  such as tire rotations, tire balancing, and wheel alignments,
+                  among others.
+                </p>
+              </div>
+
+              <div class="card-item">
+                <img
+                  src="./img/services/brakes.png"
+                  alt="services"
+                  class="card-item-img"
+                />
+                <h3 class="card-title">Brakes</h3>
+                <p>
+                  Your vehicle's braking system requires periodic maintenance
+                  such as brake pad replacement and brake rotor resurfacing.
+                </p>
+              </div>
+
+              <div class="card-item">
+                <img
+                  src="./img/services/filter-replacements.png"
+                  alt="services"
+                  class="card-item-img"
+                />
+                <h3 class="card-title">Filter Replace</h3>
+                <p>
+                  We carry Volkswagen OEM replacement filters for anything from
+                  engine air filters and cabin air filters to engine oil
+                  filters.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- end of our services -->
+
+    <!-- car-brands section -->
+    <section id="car-brands">
+      <div class="container">
+        <div class="title-container">
+          <h2>we are working with top class car-brands</h2>
+          <div class="title-line"></div>
+          <p>
+            We've partnered with some car brands. Find out more about the car
+            brands we work with to promote our brand. And also you can know all
+            the luxurious cars.
+          </p>
+        </div>
+        <div class="slider-wrapper">
+          <div class="slider-nav-wrapper">
+            <ul class="slider-nav">
+              <li>BMW</li>
+              <li>Ferrari</li>
+              <li>Lamborghini</li>
+              <li>Porsche</li>
+              <li>Suzuki</li>
+              <li>Toyota</li>
+            </ul>
+          </div>
+          <div class="banner slider-for">
+            <!-- BMW -->
+            <div class="banner-slide">
+              <div class="banner-inner-wrapper">
+                <div class="banner-inner">
+                  <div class="banner-inner-img">
+                    <img src="./img/logos/bmw-logo.png" alt="car-brands-img" />
+                  </div>
+                  <div class="banner-inner-text">
+                    <!-- <h2>BMW</h2> -->
+                    <p>
+                      BMW is a German vehicle business that was formed in 1916.
+                      It also owns and manufactures Mini automobiles and
+                      Rolls-Royce Motor Cars. BMW is one of the world's top
+                      three luxury automakers.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- Ferrari -->
+            <div class="banner-slide">
+              <div class="banner-inner-wrapper">
+                <div class="banner-inner">
+                  <div class="banner-inner-img">
+                    <img
+                      src="./img/logos/ferrari-logo.png"
+                      alt="car-brands-img"
+                    />
+                  </div>
+                  <div class="banner-inner-text">
+                    <!-- <h2>Ferrari</h2> -->
+                    <p>
+                      Ferrari is an Italian automobile company that competes in
+                      the Formula One World Championship as well as producing
+                      high-end and high-performance racing vehicles, supercars,
+                      and luxury sports cars.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- Lamborghini -->
+            <div class="banner-slide">
+              <div class="banner-inner-wrapper">
+                <div class="banner-inner">
+                  <div class="banner-inner-img">
+                    <img
+                      src="./img/logos/lamborghini-logo.png"
+                      alt="car-brands-img"
+                    />
+                  </div>
+                  <div class="banner-inner-text">
+                    <!-- <h2>Lamborghini</h2> -->
+                    <p>
+                      Automobili Lamborghini S.p.A. is an Italian brand and
+                      producer of premium supercars, sports vehicles, and SUVs
+                      located in Sant'Agata Bolognese, Italy, as well as
+                      tractors Lamborghini Trattori.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- Porsche -->
+            <div class="banner-slide">
+              <div class="banner-inner-wrapper">
+                <div class="banner-inner">
+                  <div class="banner-inner-img">
+                    <img
+                      src="./img/logos/porsche-logo.png"
+                      alt="car-brands-img"
+                    />
+                  </div>
+                  <div class="banner-inner-text">
+                    <!-- <h2>Porsche</h2> -->
+                    <p>
+                      Porsche is a German automaker known for its
+                      high-performance and premium sports vehicles, SUVs, and
+                      sedans. Ferdinand Porsche founded Porsche in 1931 as a
+                      design engineering department.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- Suzuki -->
+            <div class="banner-slide">
+              <div class="banner-inner-wrapper">
+                <div class="banner-inner">
+                  <div class="banner-inner-img">
+                    <img
+                      src="./img/logos/suzuki-logo.png"
+                      alt="car-brands-img"
+                    />
+                  </div>
+                  <div class="banner-inner-text">
+                    <!-- <h2>Suzuki</h2> -->
+                    <p>
+                      Suzuki Motor Corporation is a Japanese manufacturer that
+                      manufactures a variety of tiny autos, motorbikes, outboard
+                      motors, and other small combustion-powered engine items.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- Honda -->
+            <div class="banner-slide">
+              <div class="banner-inner-wrapper">
+                <div class="banner-inner">
+                  <div class="banner-inner-img">
+                    <img
+                      src="./img/logos/toyota-logo.png"
+                      alt="car-brands-img"
+                    />
+                  </div>
+                  <div class="banner-inner-text">
+                    <!-- <h2>Toyota</h2> -->
+                    <p>
+                      Toyota Motor Corporation is a Japanese multinational
+                      automobile manufacturer based in Toyota, Aichi, Japan. As
+                      of December 2019, was the world's tenth-largest firm in
+                      terms of revenue.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- end of car-brands section -->
+
+    <!-- get all -->
+    <!-- <div class="get-all">
+        <div class="container">
+            <div class="inner-container">
+                <div class="get-all-content-wrap">
+                    <h2>Get All Luxurious Cars</h2>
+                    <div class="title-line"></div>
+
+                    <div class="get-all-content">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corrupti natus nulla incidunt accusantium rerum quas nisi qui optio modi nam. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi natus nemo magnam illo velit libero labore explicabo dolorem neque et.</p>
+
+                        <div class="logo-container">
+                            <div class="logo-item">
+                                <img src="img/logos/lambo.png" alt="car-logo" class="img-fluid">
+                            </div>
+                            <div class="logo-item">
+                                <img src="img/logos/porsche.png" alt="car-logo" class="img-fluid">
+                            </div>
+                            <div class="logo-item">
+                                <img src="img/logos/audi.png" alt="car-logo" class="img-fluid">
+                            </div>
+                            <div class="logo-item">
+                                <img src="img/logos/tesla.png" alt="car-logo" class="img-fluid">
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div> -->
+    <!-- end of get all -->
+
+    <!-- collection -->
+    <section id="collection">
+      <div class="container">
+        <div class="inner-container">
+          <div class="collection-container">
+            <div class="title-container">
+              <h2>Our collection cars</h2>
+              <div class="title-line"></div>
+              <p>
+                Use our huge database to explore and compare trims, images, and
+                reviews for every make and model, so you can pick the automobile
+                that is right for you.
+              </p>
+            </div>
+
+            <div class="collection-content">
+              <div class="car-item">
+                <div class="car-pic-wrap">
+                  <img
+                    src="./img/collection/collection-one.jpg"
+                    alt="car"
+                    class="img-fluid"
+                  />
+                </div>
+                <div class="car-item-content">
+                  <a href="#.">
+                    <p class="car-brand">2023 BMW 5 Series - 530i RWD</p>
+                  </a>
+                  <p class="price"><span>$</span>55,795</p>
+                  <p class="features-title">KEY FEATURES:</p>
+                  <ul class="car-features">
+                    <li>248 hp BMW TwinPower Turbo 4-Cylinder</li>
+                    <li>SensaTec-Appointed Seats with Memory</li>
+                    <li>12.3-inch Driver and Central Displays</li>
+                  </ul>
+                  <a href="#" class="main-btn collection-btn">See All Deals</a>
+                </div>
+              </div>
+
+              <div class="car-item">
+                <div class="car-pic-wrap">
+                  <img
+                    src="./img/collection/cllection-two.jpg"
+                    alt="car"
+                    class="img-fluid"
+                  />
+                </div>
+                <div class="car-item-content">
+                  <a href="#.">
+                    <p class="car-brand">Ferrari Portofino M Trim</p>
+                  </a>
+                  <p class="price"><span>$</span>230,950</p>
+                  <p class="features-title">KEY FEATURES:</p>
+                  <ul class="car-features">
+                    <li>612 hp Turbocharged V8 Engine</li>
+                    <li>Hardtop Convertible</li>
+                    <li>10.25-inch Central Touchscreen</li>
+                  </ul>
+                  <a href="#" class="main-btn collection-btn">See All Deals</a>
+                </div>
+              </div>
+
+              <div class="car-item">
+                <div class="car-pic-wrap">
+                  <img
+                    src="./img/collection/collection-three.jpg"
+                    alt="car"
+                    class="img-fluid"
+                  />
+                </div>
+                <div class="car-item-content">
+                  <a href="#.">
+                    <p class="car-brand">Volkswagen Golf GTI</p>
+                  </a>
+                  <p class="price"><span>$</span>36,425</p>
+                  <p class="features-title">KEY FEATURES:</p>
+                  <ul class="car-features">
+                    <li>Power Tilting/Sliding Panoramic Sunroof</li>
+                    <li>10-inch Touchscreen Navigation</li>
+                    <li>Harman Kardon Premium Audio System</li>
+                  </ul>
+                  <a href="#" class="main-btn collection-btn">See All Deals</a>
+                </div>
+              </div>
+
+              <div class="car-item">
+                <div class="car-pic-wrap">
+                  <img
+                    src="./img/collection/collection-four.jpg"
+                    alt="car"
+                    class="img-fluid"
+                  />
+                </div>
+                <div class="car-item-content">
+                  <a href="#.">
+                    <p class="car-brand">Nissan Titan XD</p>
+                  </a>
+                  <p class="price"><span>$</span>49,135</p>
+                  <p class="features-title">KEY FEATURES:</p>
+                  <ul class="car-features">
+                    <li>400 hp 5.6L DOHC 32-Valve V8 Engine</li>
+                    <li>Nissan Safety Shield® 360</li>
+                    <li>Apple CarPlay® and Android Auto™</li>
+                  </ul>
+                  <a href="#" class="main-btn collection-btn">See All Deals</a>
+                </div>
+              </div>
+
+              <div class="car-item">
+                <div class="car-pic-wrap">
+                  <img
+                    src="./img/collection/collection-five.jpg"
+                    alt="car"
+                    class="img-fluid"
+                  />
+                </div>
+                <div class="car-item-content">
+                  <a href="#.">
+                    <p class="car-brand">Porsche Cayenne - E-Hybrid</p>
+                  </a>
+                  <p class="price"><span>$</span>87,950</p>
+                  <p class="features-title">KEY FEATURES:</p>
+                  <ul class="car-features">
+                    <li>455 hp Plug-In Hybrid Turbocharged V6</li>
+                    <li>Power-Adjustable Leather Seats</li>
+                    <li>Front and Rear ParkAssist Sensors</li>
+                  </ul>
+                  <a href="#" class="main-btn collection-btn">See All Deals</a>
+                </div>
+              </div>
+
+              <div class="car-item">
+                <div class="car-pic-wrap">
+                  <img
+                    src="./img/collection/collection-six.jpg"
+                    alt="car"
+                    class="img-fluid"
+                  />
+                </div>
+                <div class="car-item-content">
+                  <a href="#.">
+                    <p class="car-brand">Volvo C40 Recharge</p>
+                  </a>
+                  <p class="price"><span>$</span>61,195</p>
+                  <p class="features-title">KEY FEATURES:</p>
+                  <ul class="car-features">
+                    <li>Adaptive Cruise Control with Pilot Assist</li>
+                    <li>Heated Rear Seats and Steering Wheel</li>
+                    <li>Harman Kardon Premium Audio</li>
+                  </ul>
+                  <a href="#" class="main-btn collection-btn">See All Deals</a>
+                </div>
+              </div>
+            </div>
+
+            <a href="#" class="main-btn">More Collections</a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--end of collection -->
+
+    <!-- offers -->
+    <section id="offers">
+      <div class="container">
+        <div class="inner-container">
+          <div class="offers-container">
+            <div class="content-side">
+              <h4>Wanna get more special offers ?</h4>
+              <p>
+                Looking for a particular car or wish to ask a question about a
+                car on our lot? Subscribe to get a chance with a special offer.
+              </p>
+              <a href="#" class="main-btn">Subscribe Now</a>
+            </div>
+            <div class="pic-side"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- end of offers -->
+
+    <!-- Footer secttion -->
+    <footer>
+      <div class="footer-container container">
+        <div class="footer-brand">
+          <a href="#"> SWIFT<span class="orange-text">Automobile</span> </a>
+          <p class="ft-address">
+            900 Indiana Ave, Walsenburg, CO 81089, United States
+          </p>
+          <p>(+1) 123 456 7890</p>
+          <a href="#." class="ft-email">swiftautomobile@gmail.com</a>
+        </div>
+
+        <div class="first-links">
+          <h3>Site Map</h3>
+          <ul class="company-links">
+            <li><a href="#">Home</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#car-brands">Car-Brands</a></li>
+            <li><a href="#collection">Collection</a></li>
+          </ul>
+        </div>
+
+        <div class="second-links">
+          <h3>Quick Links</h3>
+          <ul class="information-links">
+            <li><a href="#">About SWIFTAutomobile</a></li>
+            <li><a href="#.">Guides & Reviews</a></li>
+            <li><a href="#.">Support Center</a></li>
+            <li><a href="#">News & Analysis</a></li>
+          </ul>
+        </div>
+
+        <div class="third-links">
+          <h3>Follow Us</h3>
+          <ul class="social-links">
+            <li>
+              <a href="#">
+                <span><i class="ri-facebook-fill"></i></span>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <span><i class="ri-instagram-fill"></i></span>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <span><i class="ri-twitter-fill"></i></span>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <span><i class="ri-whatsapp-fill"></i></span>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-end">
+        <p>
+          Copyright &copy; 2022 | All Right Reserved | Designed by MBPCreations
+        </p>
+      </div>
+    </footer>
+    <!-- end of footer section -->
+
+    <!-- slider script -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.js"></script>
+    <script src="./main.js"></script>
+    <!-- slider script end -->
+  </body>
+</html>
